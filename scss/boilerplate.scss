@@ -21,3 +21,17 @@
 
 // import core
 @import "lib/_core";
+
+// import assets
+@import "components/breadcrumb.scss";
+@import "components/footer.scss";
+@import "components/header.scss";
+@import "components/module-profile.scss";
+@import "components/module-search.scss";
+@import "components/module-urllist.scss";
+@import "components/module.scss";
+@import "components/pager.scss";
+
+@import "pages/page-about.scss";
+@import "pages/page-archive.scss";
+@import "pages/page-entry.scss";

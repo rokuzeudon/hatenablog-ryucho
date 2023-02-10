@@ -1,0 +1,18 @@
+.hatena-module-profile {
+  .profile-icon {
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+
+  .id {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+
+  .profile-description {
+    p {
+      margin-top: 0;
+    }
+  }
+}
