@@ -62,3 +62,43 @@
     margin: 0;
   }
 }
+
+.hatena-module-profile {
+  .id {
+    margin-bottom: 0.3em;
+  }
+  .profile-activities {
+    font-size: 80%;
+  }
+}
+
+.profile-about a,
+.urllist-see-more a,
+a.leave-comment-title,
+a.hatena-follow-button.unsubscribing {
+  display: inline-block;
+  margin-right: 0.6em;
+  padding: 0.2em 0.6em;
+  font-size: 90%;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: $btn;
+  border: $border-style;
+  border-radius: $radius-small;
+  &:hover {
+    background-color: $btn-hover;
+  }
+}
+
+a.hatena-follow-button.unsubscribing {
+  padding: 0.2em 0.6em 0.2em 1.6em;
+  background-position: 1px 1.5px;
+}
+
+.hatena-follow-button-box {
+  clear: none;
+  font-size: 100% !important;
+  height: auto;
+  margin: auto;
+  display: inline-block;
+}
