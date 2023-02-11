@@ -117,8 +117,8 @@
   }
 
   pre {
-    background: $bg-light;
-    border: none;
+    border: $border-style;
+    border-radius: $radius-small;
     white-space: pre-wrap;
     text-overflow: ellipsis;
     line-height: 1.3;
@@ -167,6 +167,11 @@
       left: 1em;
     }
   }
+
+  .hatena-asin-detail,
+  .asin-detail-buy {
+    border-radius: $radius-small;
+  }
 }
 
 /* 記事下 */
@@ -206,7 +211,7 @@
   .entry-comment {
     margin-bottom: 0.4em;
     padding: 1em 1em 1em 5.5em;
-    background-color: $bg-main;
+    background-color: $bg-light;
     border-radius: $radius-small;
   }
 
