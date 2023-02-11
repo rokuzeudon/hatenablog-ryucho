@@ -11,13 +11,8 @@
 #title {
   margin: 0;
   font-size: 1.5rem;
-
   @media #{$mq-md} {
     font-size: 1.7rem;
-  }
-
-  a {
-    color: $text;
   }
 }
 

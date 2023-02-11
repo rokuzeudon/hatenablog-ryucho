@@ -9,21 +9,11 @@
     &:last-child {
       padding-bottom: 0;
     }
-    a {
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
 
   .urllist-category-link {
     font-size: 0.7rem;
     padding: 0.1em 0.3em;
-  }
-
-  .urllist-date-link a {
-    color: $text-light;
   }
 
   .urllist-entry-body {
