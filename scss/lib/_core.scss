@@ -73,6 +73,10 @@ h6 {
     width: 300px;
   }
 }
+#box2-inner {
+  position: sticky;
+  top: 0;
+}
 
 .entry {
   position: relative;
