@@ -50,3 +50,15 @@
 .circle-image {
   border-radius: $radius-small;
 }
+
+.hatena-module-recent-comments {
+  .user-id {
+    display: block;
+  }
+  li {
+    padding: 0 0 1em;
+  }
+  .recent-comments .user-id img {
+    margin: 0;
+  }
+}
