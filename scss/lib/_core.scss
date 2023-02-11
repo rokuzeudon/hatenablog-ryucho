@@ -16,7 +16,7 @@ a {
     opacity: 0.85;
   }
   &.keyword {
-    border-bottom: 1px dotted $border;
+    border-bottom: 1px dotted #ddd;
     color: $text;
   }
 }

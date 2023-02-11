@@ -89,7 +89,7 @@
 
   table th,
   table td {
-    border: 1px solid $border;
+    border: $border-style;
     padding: 5px 10px;
   }
 
@@ -98,7 +98,7 @@
   }
 
   blockquote {
-    border: 1px solid $border;
+    border: $border-style;
     margin: 0 0 10px;
     padding: 20px;
 
@@ -147,14 +147,14 @@
     width: 50%;
     border: 0;
     border: none;
-    border-top: 1px solid $border;
+    border-top: $border-style;
     margin: 2em auto;
   }
 
   .table-of-contents {
     padding: 1em 1em 1em 2em;
     margin: 1em 0;
-    border: 1px solid $border;
+    border: $border-style;
   }
 }
 
@@ -188,11 +188,11 @@
 
   .entry-comment {
     padding: 10px 0 10px 60px;
-    border-bottom: 1px solid $border;
+    border-bottom: $border-style;
     position: relative;
 
     &:first-child {
-      border-top: 1px solid $border;
+      border-top: $border-style;
     }
   }
 
@@ -235,5 +235,5 @@
 .leave-comment-title {
   padding: 0.6em 1em;
   font-size: 0.85rem;
-  border: 1px solid $border;
+  border: $border-style;
 }

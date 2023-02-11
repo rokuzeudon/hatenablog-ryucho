@@ -2,7 +2,7 @@
   .entry-content {
     dt {
       font-weight: bold;
-      border-bottom: 1px solid $border;
+      border-bottom: $border-style;
       margin-bottom: 0.5em;
     }
     dd {
