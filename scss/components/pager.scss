@@ -2,4 +2,36 @@
   margin: 2em 0;
   display: flex;
   justify-content: space-between;
+  .pager-arrow {
+    display: none;
+  }
+  .pager-prev a {
+    padding: 1em;
+    background-color: $bg-white;
+    border-radius: $radius-main;
+    &::before {
+      content: "\f005";
+      margin-right: 0.6em;
+      font-family: blogicon;
+      font-size: 80%;
+      display: inline-block;
+      text-decoration: none;
+      opacity: 0.6;
+    }
+  }
+
+  .pager-next a {
+    padding: 1em;
+    background-color: $bg-white;
+    border-radius: $radius-main;
+    &::after {
+      content: "\f006";
+      margin-left: 0.6em;
+      font-family: blogicon;
+      font-size: 80%;
+      display: inline-block;
+      text-decoration: none;
+      opacity: 0.6;
+    }
+  }
 }
