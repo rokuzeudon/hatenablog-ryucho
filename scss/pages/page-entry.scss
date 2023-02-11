@@ -163,6 +163,12 @@
   .social-buttons {
     margin-bottom: 1em;
   }
+  .hatena-module {
+    padding: 0;
+  }
+  .entry-footer-modules {
+    margin-top: 2em;
+  }
 }
 
 .entry-footer-section {
@@ -187,13 +193,10 @@
   }
 
   .entry-comment {
-    padding: 10px 0 10px 60px;
-    border-bottom: $border-style;
-    position: relative;
-
-    &:first-child {
-      border-top: $border-style;
-    }
+    margin-bottom: 0.4em;
+    padding: 1em 1em 1em 5.5em;
+    background-color: $bg-main;
+    border-radius: $radius-small;
   }
 
   .read-more-comments {
@@ -202,8 +205,8 @@
 
   .hatena-id-icon {
     position: absolute;
-    top: 10px;
-    left: 0;
+    top: 1em;
+    left: 1em;
     width: 50px !important;
     height: 50px !important;
     border-radius: $radius-small;
@@ -211,7 +214,7 @@
 }
 
 .comment-user-name {
-  margin: 0 0 0.4em 0;
+  margin: 0;
   font-weight: bold;
 }
 
@@ -227,9 +230,8 @@
 }
 
 .comment-metadata {
-  color: $text-light;
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 80%;
 }
 
 .leave-comment-title {
