@@ -1,17 +1,8 @@
-# Hatena-Blog-Theme-Boilerplate
+# Ryucho
 
-Boilerplate は、はてなブログのデザインCSSカスタマイズの土台に適したデザインテーマです。
+Ryucho は、はてなブログ用テーマです。
 
-はてなブログの必要最小限の見た目が調整されています。このテーマをもとにしてCSSを書くと比較的楽にデザインテーマが作れます。
-「オリジナルテーマの制作にチャレンジしたいけど、0から作るのが大変」という方は、このデザインテーマをもとにしてCSSを書くと比較的楽にテーマが作れます。
-
-*Boilerplateは自己責任でご利用ください。お問い合わせははてなブログのサポートフォームではなく、本リポジトリのIssueにお願いします。*
-
-# CSSのダウンロード
-
-最新のバージョンから `boilerplate.css` をダウンロードしてください。
-
-- <https://github.com/hatena/Hatena-Blog-Theme-Boilerplate/releases>
+[Hatena-Blog-Theme-Boilerplate](https://github.com/hatena/Hatena-Blog-Theme-Boilerplate/releases)をベースにしています。
 
 # セットアップ
 
@@ -73,9 +64,5 @@ boilerplate/
 
 # ライセンス
 
-このCSSおよびSCSSファイルはMITライセンスのもと自由に複製・再配布できます。 記事本文の書式やコメント欄のスタイルなど、必要な部分だけをコピーして使ってもかまいません。 このデザインテーマをもとにしたテーマの配布も自由です。
-
-# 過去のバージョン
-
-- <https://github.com/hatena/Hatena-Blog-Theme-Boilerplate-Less>
-  - BoilerplateのLessバージョンです。（開発終了）
+このCSSおよびSCSSファイルはMITライセンスのもと自由に複製・再配布できます。
+記事本文の書式やコメント欄のスタイルなど、必要な部分だけをコピーして使ってもかまいません。 このデザインテーマをもとにしたテーマの配布も自由です。
