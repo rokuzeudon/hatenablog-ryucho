@@ -54,7 +54,7 @@ h6 {
   flex-direction: column;
   justify-content: space-between;
   @media #{$mq-sm} {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 #wrapper {
