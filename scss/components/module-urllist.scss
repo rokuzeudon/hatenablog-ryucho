@@ -148,3 +148,8 @@ a.hatena-follow-button.unsubscribing {
 .hatena-module-links a::before {
   content: "\f702";
 }
+
+.archive-module-show-button,
+.archive-module-hide-button {
+  font-size: 80%;
+}
