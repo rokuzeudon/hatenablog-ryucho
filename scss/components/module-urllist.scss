@@ -30,6 +30,10 @@
   }
 }
 
+.urllist-image {
+  border-radius: $radius-small;
+}
+
 .urllist-date-link {
   margin-bottom: 0.4em;
   a {
@@ -39,4 +43,10 @@
 
 .urllist-with-thumbnails {
   padding: 0;
+}
+
+.authors-user-icon,
+.hatena-id-icon,
+.circle-image {
+  border-radius: $radius-small;
 }
