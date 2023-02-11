@@ -51,18 +51,3 @@ $ npm start
 
 ヘルプ: [レスポンシブデザインのテーマを作成する際の注意点 - はてなブログ ヘルプ](http://help.hatenablog.com/entry/theme/custom-theme#responsive)
 
-# 構成
-
-```
-boilerplate/
-┣┳ scss/
-┃┗┳ lib/
-┃ ┗ boilerplate.scss
-┗┳ build/
- ┗ boilerplate.css
-```
-
-# ライセンス
-
-このCSSおよびSCSSファイルはMITライセンスのもと自由に複製・再配布できます。
-記事本文の書式やコメント欄のスタイルなど、必要な部分だけをコピーして使ってもかまいません。 このデザインテーマをもとにしたテーマの配布も自由です。
