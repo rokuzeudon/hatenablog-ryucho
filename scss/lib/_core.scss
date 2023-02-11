@@ -108,6 +108,16 @@ h6 {
   margin: 0.5em 0;
   font-size: 0.9rem;
   a {
+    display: inline-block;
     margin-right: 0.5em;
+    &::before {
+      font-family: blogicon;
+      display: inline-block;
+      content: "\f04a";
+      margin-right: 0.2em;
+      font-size: 90%;
+      opacity: 0.6;
+      text-decoration: none;
+    }
   }
 }

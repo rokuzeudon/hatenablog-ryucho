@@ -36,9 +36,13 @@
   .entry-title {
     margin: 0.3em auto;
   }
+  .categories {
+    margin-bottom: 1.4em;
+  }
   .entry-thumb {
     width: 80px;
     height: 80px;
+    margin-right: 1.4em;
     background-size: cover;
     border-radius: $radius-small;
     @media #{$mq-sm} {

@@ -106,3 +106,33 @@ a.hatena-follow-button.unsubscribing {
   margin: auto;
   display: inline-block;
 }
+
+.hatena-module-category,
+.hatena-module-links {
+  .hatena-urllist {
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    display: block;
+    position: relative;
+    padding-left: 1.4em;
+  }
+  a::before {
+    position: absolute;
+    display: inline-block;
+    top: 0.1em;
+    left: 0.2em;
+    margin-right: 0.2em;
+    font-family: blogicon;
+    font-size: 90%;
+    opacity: 0.6;
+    text-decoration: none;
+  }
+}
+.hatena-module-category a::before {
+  content: "\f04a";
+}
+.hatena-module-links a::before {
+  content: "\f702";
+}
