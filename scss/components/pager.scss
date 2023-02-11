@@ -5,33 +5,38 @@
   .pager-arrow {
     display: none;
   }
-  .pager-prev a {
+  a {
+    display: block;
     padding: 1em;
-    background-color: $bg-white;
+    font-size: 90%;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: $btn;
+    border: $border-style;
     border-radius: $radius-main;
-    &::before {
-      content: "\f005";
-      margin-right: 0.6em;
+    &::before,
+    &::after {
       font-family: blogicon;
       font-size: 80%;
       display: inline-block;
       text-decoration: none;
       opacity: 0.6;
     }
+    &:hover {
+      background-color: $btn-hover;
+    }
+  }
+  .pager-prev a {
+    &::before {
+      content: "\f005";
+      margin-right: 0.6em;
+    }
   }
 
   .pager-next a {
-    padding: 1em;
-    background-color: $bg-white;
-    border-radius: $radius-main;
     &::after {
       content: "\f006";
       margin-left: 0.6em;
-      font-family: blogicon;
-      font-size: 80%;
-      display: inline-block;
-      text-decoration: none;
-      opacity: 0.6;
     }
   }
 }
