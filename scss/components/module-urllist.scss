@@ -4,15 +4,13 @@
   padding: 0;
 
   li {
-    padding: 0.5em 0;
-
+    padding: 0.5em 0 0;
+    line-height: 1.4;
     &:last-child {
       padding-bottom: 0;
     }
-
     a {
       text-decoration: none;
-
       &:hover {
         text-decoration: underline;
       }
