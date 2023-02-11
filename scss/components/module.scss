@@ -1,7 +1,10 @@
 .hatena-module {
   box-sizing: border-box;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+  padding: 1.4em;
   font-size: 0.85rem;
+  background-color: $bg-white;
+  border-radius: $radius-main;
 
   @media #{$mq-sm} {
     font-size: 0.9rem;

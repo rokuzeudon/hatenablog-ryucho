@@ -80,7 +80,10 @@ h6 {
 
 .entry {
   position: relative;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
+  padding: 2em;
+  background-color: $bg-white;
+  border-radius: $radius-main;
 }
 .entry-header {
   padding-bottom: 1em;
