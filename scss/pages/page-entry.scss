@@ -19,7 +19,7 @@
   h4,
   h5,
   h6 {
-    margin: 1em 0 0.8em 0;
+    margin: 1.8em 0 0.8em 0;
   }
 
   h1 {
@@ -152,9 +152,20 @@
   }
 
   .table-of-contents {
-    padding: 1em 1em 1em 2em;
+    position: relative;
+    padding: 3em 1em 1em 2em;
     margin: 1em 0;
-    border: $border-style;
+    background-color: $bg-light;
+    border-radius: $radius-small;
+    font-size: 90%;
+    &::before {
+      content: "目次";
+      font-weight: bold;
+      position: absolute;
+      display: block;
+      top: 1em;
+      left: 1em;
+    }
   }
 }
 

@@ -82,20 +82,18 @@ h6 {
   position: relative;
   margin-bottom: 3em;
   padding: 2em;
+  line-height: 1.7;
   background-color: $bg-white;
   border-radius: $radius-main;
 }
 .entry-header {
   padding-bottom: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   position: relative;
 }
 .date {
   margin-bottom: 0.5em;
-  font-size: 0.9rem;
-  a {
-    color: $text-light;
-  }
+  font-size: 80%;
 }
 .entry-title {
   margin: 0 0 0.3em;
