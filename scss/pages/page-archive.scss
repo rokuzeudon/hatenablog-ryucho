@@ -93,4 +93,21 @@
       margin-top: 1em;
     }
   }
+  .archive-entry-tags-wrapper {
+    margin: 0.25em 0;
+    overflow: hidden;
+  }
+  .archive-entry-tag {
+    margin-right: 0;
+  }
+  .archive-entry-tag .archive-entry-tag-link {
+    margin-right: 0;
+    padding: 0.2em 0.6em;
+    font-size: 11px;
+    color: $text-light;
+  }
+  .archive-entry-tag .archive-entry-tag-icon {
+    width: 8px;
+    height: 8px;
+  }
 }
