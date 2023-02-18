@@ -18,9 +18,9 @@
     &::after {
       font-family: blogicon;
       font-size: 80%;
+      color: #999;
       display: inline-block;
       text-decoration: none;
-      opacity: 0.6;
     }
     &:hover {
       background-color: $btn-hover;
